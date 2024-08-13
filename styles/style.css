@@ -44,9 +44,143 @@ body{
         display: none;
     }
 
+    /* banner-part */
+
+    .banner{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .banner-content > h1{
+        font-size: 2.5rem;
+        font-weight: 900;
+       
+    }
+    .banner-content > p{
+        opacity: 50%;
+      /* margin-bottom: 2rem; */
+    }
+
+    #shape{
+        font-family: 'Miama', sans-serif;
+        font-weight: 400;
+        font-size: 8rem;
+    }
+    .ban-buttons{
+        display: flex;
+    }
+
+   
+
+
+    .join-button{
+        background-color: #E6533C;
+        color:white;
+        border: none;
+        padding: 1rem 1.5rem;
+        border-radius: 2.5rem;
+        font-size: 1rem;
+        font-weight:600;
+    }
+    
+    .download-button{
+        background-color: black;
+        color:white;
+        border: 1px solid white;
+        padding: 1rem 1.5rem;
+        border-radius: 2.5rem;
+        font-size: 1rem;
+        font-weight:600;
+        margin-left: 1rem;
+    
+    
+    }
+    .banner-img{
+        position: relative;
+      margin-right: 3rem;
+    }
+
+    .vdo-tutorial{
+        background-color: rgba(48, 48, 48,0.5);
+        backdrop-filter: blur(20px);
+        color: white;
+        width: 12rem;
+        text-align: center;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: -10rem;
+        margin-left: -7rem;
+        position: absolute;
+    }
+
+    
+.circle{
+    width:2rem;
+   height: 2rem;
+   background-color: #E6533C;
+   border-radius: 50%;
+   
+  
+}
+.plus{
+   font-size: 1.5rem;
+   font-weight: 700;
+   margin-bottom: -1rem;
+
+}
+.vdo{
+   color: white;
+   opacity: 50%;
+   font-size: 0.9rem;
+
+    
+}
+.workout{
+    background-color: rgba(48, 48, 48,0.5);
+    backdrop-filter: blur(20px);
+    color: white;
+    width: 10rem;
+    text-align: center;
+    border-radius: 0.75rem;
+    position: absolute;
+    top: 10rem;
+    right: .3rem;
+    
+    
+  
+}
+.fiveplus{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: -1rem;
+   
+   
+}
+.workout-vdos{
+    color: white;
+    opacity: 50%;
+    font-size: 0.9rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
     /*responsive part  */
     @media screen and (max-width:576px){
+        /* responsive nav-bar */
     .nav-opt > ul{
         display:none;
     }
@@ -60,6 +194,24 @@ body{
         padding-right: 20px;
         padding-top: 50px;
     }
+    /* banner-part */
+        .banner{
+            flex-direction: column;
+            justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* margin: 0 auto; */
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+
+         }
+        .workout{
+            top: 1rem;
+           
+        }
+
+
+
     
     }
 
