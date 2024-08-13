@@ -99,3 +99,42 @@ header{
 
 }
 
+.vdo-tutorial{
+    background-color: rgba(48, 48, 48,0.5);
+    backdrop-filter: blur(20px);
+    color: white;
+    width: 12rem;
+    text-align: center;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: -10rem;
+    margin-left: -7rem;
+}
+
+.circle{
+     width:2rem;
+    height: 2rem;
+    background-color: #E6533C;
+    border-radius: 50%;
+    
+   
+}
+.plus{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: -1rem;
+
+}
+.vdo{
+    color: white;
+    opacity: 50%;
+    font-size: 1rem;
+    
+}
+
+   
+
+
