@@ -242,7 +242,12 @@ body{
             top: 1rem;
            
         }
-
+        .habits{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
 
 
     
