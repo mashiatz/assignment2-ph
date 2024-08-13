@@ -165,8 +165,41 @@ body{
     font-size: 0.9rem;
 
 }
+/* section change habit */
 
+.cng-habit-description{
+   text-align: center;
+    
+}
+.cng-habit-description > h3 {
+    color:White;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.cng-habit-description > p {
+    color: white;
+    opacity: 50%;
+    font-size: 0.8rem;
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+}
+.habits{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.hab-head{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.hab-des {
+    color: white;
+    opacity: 50%;
+    font-size: 0.8rem;
+    margin-top: -1rem;
+    text-align: center;
+}
 
 
 
