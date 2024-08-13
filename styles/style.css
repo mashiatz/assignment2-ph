@@ -3,28 +3,21 @@
 body{
     font-family: "Inter", sans-serif;
     background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
     
 }
 .orange{
     color: #E6533C;
 }
-header{
-    width: 75rem;
-    padding-top: 3rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
-}
 
-/* nav-bar */
 .nav{
     display: flex;
     justify-content: space-between;
-    
 }
 .nav > .fitness{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     font-size: 2.25rem;
     font-weight: 800;
     font-style: italic;
@@ -35,133 +28,39 @@ header{
     justify-content: center;
     gap: 1.6rem;
 }
-
 .nav > .nav-opt > ul > li{
     list-style: none;
-    color: white;
    
 }
+
 #home{
-    background-color: #E6533C;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 1rem;
-    font-size: 1rem;
-    font-weight: 600;
-}
+        background-color: #E6533C;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .hamburger{
+        display: none;
+    }
 
-/* banner-part */
-.banner{
-    display: flex;
-    justify-content: space-between;
+
+    /*responsive part  */
+    @media screen and (max-width:576px){
+    .nav-opt > ul{
+        display:none;
+    }
+    .fitness{
+        padding-left: 20px;
+        padding-top: 50px;
+    }
+    .hamburger{
+        display: initial;
+        
+        padding-right: 20px;
+        padding-top: 50px;
+    }
     
-   
-}
-.banner-content{
-    color: white;
-}
-.banner-title{
-    font-size: 2.5rem;
-    font-weight: 900;
-    
-}
-.banner-description{
-    opacity: 50%;
-    
-    margin-bottom: 2rem;
-}
-#shape{
-    font-family: 'Miama', sans-serif;
-    font-weight: 400;
-    font-size: 8rem;
-}
-
-.join-button{
-    background-color: #E6533C;
-    color:white;
-    border: none;
-    padding: 1rem 1.5rem;
-    border-radius: 2.5rem;
-    font-size: 1rem;
-    font-weight:600;
-}
-
-.download-button{
-    background-color: black;
-    color:white;
-    border: 1px solid white;
-    padding: 1rem 1.5rem;
-    border-radius: 2.5rem;
-    font-size: 1rem;
-    font-weight:600;
-    margin-left: 1rem;
-
-
-}
-
-
-.vdo-tutorial{
-    background-color: rgba(48, 48, 48,0.5);
-    backdrop-filter: blur(20px);
-    color: white;
-    width: 12rem;
-    text-align: center;
-    border-radius: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    margin-top: -10rem;
-    margin-left: -7rem;
-}
-
-.circle{
-     width:2rem;
-    height: 2rem;
-    background-color: #E6533C;
-    border-radius: 50%;
-    
-   
-}
-.plus{
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: -1rem;
-
-}
-.vdo{
-    color: white;
-    opacity: 50%;
-    font-size: 0.9rem;
-    
-}
-
-.workout{
-    background-color: rgba(48, 48, 48,0.5);
-    backdrop-filter: blur(20px);
-    color: white;
-    width: 12rem;
-    text-align: center;
-    border-radius: 0.75rem;
-    position: absolute;
-    top: 16rem;
-    right: 8rem;
-    
-  
-}
-.fiveplus{
-    font-size: 2rem;
-    font-weight: 900;
-    margin-bottom: -1rem;
-   
-   
-}
-.workout-vdos{
-    color: white;
-    opacity: 50%;
-    font-size: 0.9rem;
-
-}
-   
+    }
 
 
