@@ -201,6 +201,45 @@ body{
     text-align: center;
 }
 
+/* section run extra */
+
+.run-extra{
+    background-color: #222222;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 120px;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.run-extra-description > h2 {
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+.run-extra-description > p {
+    font-size: 0.8rem;
+    color: white;
+    opacity: 50%;
+    margin-top: -1rem;
+}
+.join-button2{
+    background-color: #E6533C;
+    color:white;
+    border: none;
+    padding: 15px 70px;
+    border-radius: 2.5rem;
+    font-size: 1rem;
+    font-weight:600;
+}
+.run-img{
+    width: 350px;
+    height: 300px;
+    border-radius: 5%;
+}
+
 
 
 
@@ -233,7 +272,7 @@ body{
             justify-content: center;
         align-items: center;
         width: 100%;
-        /* margin: 0 auto; */
+        
         margin-left: 1.5rem;
         margin-right: 1.5rem;
 
@@ -242,10 +281,28 @@ body{
             top: 1rem;
            
         }
+        /* change habits */
         .habits{
             flex-direction: column;
             justify-content: center;
             align-items: center;
+        }
+
+        /* run-extra */
+        .run-extra{
+            flex-direction: column;
+            
+            width: 70%;
+            text-align: center;
+            margin-left: 48px;
+            
+           
+        }
+        .join-button2{
+            padding: 15px 120px;
+        }
+        .run-img{
+            margin-top: 1.8rem;
         }
         
 
