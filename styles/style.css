@@ -362,8 +362,15 @@ body{
             width: 70%;
             text-align: center;
             margin-left: 48px;
+
+
             
            
+        }
+        .run-extra-description > h2 {
+            font-size: 2rem;
+            font-weight: 800;
+        
         }
         .join-button2{
             padding: 15px 120px;
@@ -371,10 +378,12 @@ body{
         .run-img{
             margin-top: 1.8rem;
         }
-        .team-description > h2 {
-            font-size: 1rem;
-            font-weight: 500;
+        
             
+        }
+        /* trainer */
+        .team-description > h2 {
+            font-size: 2rem;
         }
         .team-description > p {
             padding: 40px;
@@ -391,6 +400,8 @@ body{
       "team6";
       margin-left: 20px;
         }
+
+        /*  */
         
 
 
