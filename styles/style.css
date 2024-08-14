@@ -239,6 +239,50 @@ body{
     height: 300px;
     border-radius: 5%;
 }
+/* unique part */
+.unique{
+    border: 1px solid grey;
+    width:80rem;
+    margin-left: 7rem;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
+}
+.unique-content{
+    display: grid;
+      grid-template-columns: repeat(3,1fr);
+      margin-left: 8rem;
+      
+}
+
+.content1 > h3 , .content2 > h3 , .content3 > h3 {
+
+    
+    font-size: 1rem;
+    font-weight: 700;
+    /* margin-bottom: 2rem;  */
+    /* padding-left: 0.5rem;  */
+}
+.content1 > p , .content2 > p , .content3 > p {
+
+    font-size: 0.8rem;
+    /* color: white; */
+    opacity: 50%;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+
+}
+
+/* .trainer-des{
+    font-size: 0.8rem;
+    color: white;
+    opacity: 50%;
+    margin-top: -1.4rem;
+    padding-left: 0.5rem;
+} */
+
+
+
+
 
 /* section meet our team */
 
@@ -262,14 +306,14 @@ body{
       border-radius: 1rem;
       
 }
-.team-description > h2 {
+.team-description > h2 , .unique-head > h2 {
     font-size: 3rem ;
     font-weight: 700;
     text-align: center;
 
 }
 
-.team-description > p{
+.team-description > p , .unique-head > p {
     font-size: 0.8rem;
     color: white;
     opacity: 50%;
@@ -277,7 +321,7 @@ body{
     text-align: center;
 
 }
-.trainer-img{
+.trainer-img , .unique-img{
     width: 16rem ;
     height: 13rem;
     border-radius: 0.3rem;
@@ -303,10 +347,10 @@ body{
 
 /* bmi heading */
 
-.bmi-heading{
-    /* margin-left: 25rem; */
-    
-}
+/* .bmi-heading{
+    margin-left: 25rem;
+     */
+
 
 .bmi-heading > h2 {
     font-size: 2rem ;
@@ -495,6 +539,7 @@ input[type="text"]{
     /*responsive part  */
     @media screen and (max-width:576px){
         /* responsive nav-bar */
+        
     .nav-opt > ul{
         display:none;
     }
@@ -562,6 +607,7 @@ input[type="text"]{
 
         .bmi-box{
             flex-direction: column;
+            /* margin: 0 auto; */
             
         }
 
@@ -569,10 +615,10 @@ input[type="text"]{
             
         
         /* trainer */
-        .team-description > h2 {
+        .team-description > h2 , .unique-head > h2 {
             font-size: 2rem;
         }
-        .team-description > p {
+        .team-description > p , .unique-head > p {
             padding: 40px;
             margin-top: -60px;
         }
