@@ -21,15 +21,22 @@ body{
     font-size: 2.25rem;
     font-weight: 800;
     font-style: italic;
+    margin-left: 3rem;
 }
 .nav-opt > ul{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1.6rem;
+    margin-right: 5rem;
+    border: 1px solid #222222;
+    border-radius: 1.8rem;
+    padding: 10px;
 }
 .nav > .nav-opt > ul > li{
     list-style: none;
+    
+    padding-right: 2rem;
    
 }
 
@@ -54,44 +61,51 @@ body{
     .banner-content > h1{
         font-size: 2.5rem;
         font-weight: 900;
+        margin-left: 3rem;
        
     }
     .banner-content > p{
         opacity: 50%;
+        margin-left: 3rem;
       /* margin-bottom: 2rem; */
     }
-
+/* .banner-content > h1 
+  .banner-content > p
+   .ban-buttons*/
     #shape{
         font-family: 'Miama', sans-serif;
-        font-weight: 400;
-        font-size: 8rem;
+        font-weight: 800;
+        font-size: 2.5rem;
     }
     .ban-buttons{
         display: flex;
+        margin-left: 3rem;
     }
 
    
 
 
-    .join-button{
+    .join-button
+    {
         background-color: #E6533C;
         color:white;
         border: none;
-        padding: 1rem 1.5rem;
+        padding: 1rem 3rem;
         border-radius: 2.5rem;
         font-size: 1rem;
         font-weight:600;
+        margin-right: 30px;
     }
     
     .download-button{
         background-color: black;
         color:white;
         border: 1px solid white;
-        padding: 1rem 1.5rem;
+        padding: 1rem 3rem;
         border-radius: 2.5rem;
         font-size: 1rem;
         font-weight:600;
-        margin-left: 1rem;
+        /* margin-left: 1rem; */
     
     
     }
@@ -100,7 +114,8 @@ body{
       margin-right: 3rem;
     }
 
-    .vdo-tutorial{
+    .vdo-tutorial
+    {
         background-color: rgba(48, 48, 48,0.5);
         backdrop-filter: blur(20px);
         color: white;
@@ -147,15 +162,13 @@ body{
     border-radius: 0.75rem;
     position: absolute;
     top: 10rem;
-    right: .3rem;
-    
-    
-  
+    right: .3rem; 
 }
 .fiveplus{
     font-size: 2rem;
     font-weight: 800;
     margin-bottom: -1rem;
+    margin-top: 0.5rem;
    
    
 }
@@ -569,14 +582,30 @@ input[type="text"]{
         align-items: center;
         width: 100%;
         
-        margin-left: 1.5rem;
+         margin-left: 1.5rem;
         margin-right: 1.5rem;
 
          }
+
+         .banner-content > h1, 
+         .banner-content > p,
+         .ban-buttons {
+            margin-left: 1.5rem;
+            margin-right: 1.5rem; 
+         }
         .workout{
-            top: 1rem;
+            top: 2rem;
            
         }
+        .vdo-tutorial{
+            margin-top: -17rem;
+            margin-left: -1em;
+        }
+        .join-button,
+        .download-button{
+            padding: 0.8rem 1.8rem;
+        }
+
         /* change habits */
         .habits{
             flex-direction: column;
