@@ -299,6 +299,127 @@ body{
     padding-left: 0.5rem;
 }
 
+/* challenge part-BMI */
+
+/* bmi heading */
+
+.bmi-heading{
+    /* margin-left: 25rem; */
+    
+}
+
+.bmi-heading > h2 {
+    font-size: 2rem ;
+    font-weight: 800 ;
+
+}
+
+.bmi-heading > p {
+    font-size: 0.8rem;
+    opacity: 50%;
+}
+
+/* bmi box */
+
+.bmi-box{
+    background-color: #222222;
+    /* height: 460px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:150px;
+}
+/* chart */
+
+.chart{
+    border: 2px solid grey;
+    border-collapse: collapse;
+    /* margin-left: 150px; */
+    margin-bottom: 100px;
+    
+}
+
+.chart-h2 , .form-h2{
+    font-size: 2rem;
+    font-weight: 800;
+    /* margin-left: 100px; */
+    padding-top: 2rem;
+   
+}
+
+.th{
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+.th > th{
+    padding: 1rem 2rem;
+    border: 1px solid grey;
+}
+.tr{
+    opacity: 50%;
+    font-size: 0.8;
+   
+    }
+.tr > td{
+    padding: 1rem 2rem;
+   border: 1px solid grey;
+}
+
+/* form */
+.form-p{
+    opacity: 0.5;
+    font-size: 0.8rem;
+    margin-top: -1rem;
+    margin-bottom:2rem;
+}
+
+input[type="text"]{
+   
+    font-family: "Inter", sans-serif;
+    
+    
+    background-color:rgba(255, 255, 255, 0.1);
+    color: white;
+    margin-bottom: 25px;
+
+    height: 3rem;
+    width: 17.5rem;
+    padding-left: 1.2rem;
+    border: none;
+    border-radius: 0.8rem;
+
+}
+.form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#sel{
+    grid-column: span 2;
+    width: 605px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 
 .footer{
@@ -432,6 +553,18 @@ body{
         .run-img{
             margin-top: 1.8rem;
         }
+
+        /* bmi */
+        .bmi-heading{
+            display: block;
+            justify-content: flex-start;
+        }
+
+        .bmi-box{
+            flex-direction: column;
+            
+        }
+
         
             
         
@@ -454,6 +587,11 @@ body{
       "team6";
       margin-left: 20px;
         }
+
+   
+
+
+
  
         /* footer */
 
