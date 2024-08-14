@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
+
+
 body{
     font-family: "Inter", sans-serif;
     background-color: black;
     color: white;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    box-sizing: border-box;
+     
     
 }
 .orange{
@@ -188,17 +192,21 @@ body{
     color:White;
     font-size: 3rem;
     font-weight: 700;
+    margin-left: 2.5rem;
+
 }
 .cng-habit-description > p {
     color: white;
     opacity: 50%;
     font-size: 0.8rem;
     margin-top: -3rem;
+    margin-left: 2.5rem;
     margin-bottom: 2rem;
 }
 .habits{
     display: flex;
     justify-content: space-evenly;
+    margin-left: 3.75rem;
 }
 
 .hab-head{
@@ -223,6 +231,7 @@ body{
     justify-content: center;
     align-items: center; 
     margin: 120px;
+    
     padding: 30px;
     border-radius: 25px;
 }
@@ -367,12 +376,16 @@ body{
 .bmi-heading > h2 {
     font-size: 2rem ;
     font-weight: 800 ;
+    margin-left: 30px;
 
 }
 
 .bmi-heading > p {
     font-size: 0.8rem;
     opacity: 50%;
+    margin-left: 30px;
+    margin-top: -20px;
+
 }
 
 /* bmi box */
@@ -380,7 +393,7 @@ body{
 .bmi-box{
     background-color: #222222;
     /* height: 460px; */
-    width: 100%;
+    width: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -391,16 +404,16 @@ body{
 .chart{
     border: 2px solid grey;
     border-collapse: collapse;
-    /* margin-left: 150px; */
     margin-bottom: 100px;
+    /* margin-left: 35px; */
     
 }
 
 .chart-h2{
     font-size: 2rem;
     font-weight: 800;
-    /* margin-left: 100px; */
     padding-top: 2rem;
+    /* margin-left: 20px; */
    
 }
 
@@ -455,6 +468,7 @@ input[type="text"]{
     /* display: flex; */
     display: grid;
     grid-template-columns: repeat(2,1fr);
+   
 }
 
 #sel{
@@ -463,38 +477,25 @@ input[type="text"]{
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
 
 .footer{
     background-color: #222222;
     margin-top: 4rem;
+    
     /* width: 100%; */
 }
 .footer-pt1{
+    /* display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 60px;
+    margin-bottom: 40px; */
+   
+    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 60px;
+    gap: 60px; 
 }
 .foot-fit{
     font-size: 4rem;
@@ -514,9 +515,6 @@ input[type="text"]{
     
    
 }
-
-
-
 
 .pt1-getstart1 > ul > li , .pt1-getstart2 > ul > li {
     list-style: none;
@@ -541,24 +539,12 @@ input[type="text"]{
 
  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /*responsive part  */
     @media screen and (max-width:576px){
-
+         /* *{
+            /* overflow-x: hidden; */
+            /* box-sizing: border-box;
+         } */ 
         
         /* responsive nav-bar */
         
@@ -619,7 +605,7 @@ input[type="text"]{
             
             width: 70%;
             text-align: center;
-            margin-left: 48px;
+            margin-left: 3.5rem;
            }
         .run-extra-description > h2 {
             font-size: 1.7rem;
@@ -645,9 +631,12 @@ input[type="text"]{
 .unique-content{
     
       grid-template-columns: repeat(1,1fr);
-      margin: 1.5rem;
+      /* margin: 1.5rem; */
+      margin-left: 4.5rem;
         
 }
+
+
 
 
 
@@ -663,12 +652,14 @@ input[type="text"]{
 
         .bmi-box{
             flex-direction: column;
+            padding: 5%;
+           
             
             
             
             
         }
-
+     
 
         input[type="text"]{
    
@@ -748,7 +739,8 @@ input[type="text"]{
  
         /* footer */
         .footer{
-            width: 100%;
+            width:100%;
+            padding: 5%;
         }
 
         .footer-pt1{
