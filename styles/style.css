@@ -383,7 +383,7 @@ body{
     
 }
 
-.chart-h2 , .form-h2{
+.chart-h2{
     font-size: 2rem;
     font-weight: 800;
     /* margin-left: 100px; */
@@ -411,6 +411,12 @@ body{
 }
 
 /* form */
+.form-h2{
+    font-size: 2rem;
+    font-weight: 800;
+    /* margin-left: 100px; */
+    padding-top: 2rem;}
+
 .form-p{
     opacity: 0.5;
     font-size: 0.8rem;
@@ -421,27 +427,28 @@ body{
 input[type="text"]{
    
     font-family: "Inter", sans-serif;
-    
-    
     background-color:rgba(255, 255, 255, 0.1);
     color: white;
     margin-bottom: 25px;
-
     height: 3rem;
     width: 17.5rem;
     padding-left: 1.2rem;
-    border: none;
+    /* border: 2px solid red; */
     border-radius: 0.8rem;
+    border: none;
 
 }
 .form{
+    /* display: flex; */
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+
 #sel{
-    grid-column: span 2;
-    width: 605px;
-}
+        grid-column: span 2;
+        width: 605px;
+    }
+
 
 
 
@@ -623,9 +630,60 @@ input[type="text"]{
 
         .bmi-box{
             flex-direction: column;
-            /* margin: 0 auto; */
+            
+            
+            
             
         }
+
+
+        input[type="text"]{
+   
+            height: 2rem;
+            width: 10rem;
+            /* padding-left: 1.2rem; */
+            border: none;
+            border-radius: 0.5rem;
+            padding: 8px;
+            /* margin-left: 6rem; */
+            margin-right: 0;
+            /* border: 2px solid red; */
+        
+        }
+        .form{
+
+           /* grid-template-areas: 
+            "cm kg"
+            "age sex"
+            "sel sel"; */
+            /* gap: 5px; */
+
+           
+            width: 100%;
+            display: initial;
+            /* margin-right: 40px;
+            padding-bottom: 40px; */
+
+            
+           
+        }
+        .bmi-form{
+            width: 100%;
+            margin-left: 30px;
+            padding-left: 15px;
+            padding-bottom: 30px;
+            /* display: block;
+            gap:2px */
+        }
+        #sel{
+            
+            grid-column: span 2;
+            width: 21.25rem;
+            
+        }
+           
+
+        
 
         
             
