@@ -242,15 +242,17 @@ body{
 /* unique part */
 .unique{
     border: 1px solid grey;
-    width:80rem;
-    margin-left: 7rem;
+    /* width:80rem; */
+    margin-left: 5rem;
+    margin-right: 5rem;
     margin-bottom: 5rem;
     padding-bottom: 2rem;
+
 }
 .unique-content{
     display: grid;
       grid-template-columns: repeat(3,1fr);
-      margin-left: 8rem;
+      /* margin-left: 0.8rem; */
       
 }
 
@@ -538,6 +540,8 @@ input[type="text"]{
 
     /*responsive part  */
     @media screen and (max-width:576px){
+
+        
         /* responsive nav-bar */
         
     .nav-opt > ul{
@@ -598,6 +602,29 @@ input[type="text"]{
         .run-img{
             margin-top: 1.8rem;
         }
+/* unique part */
+
+
+/* .unique{
+       
+    width:80%; */
+    /* margin-left: 7rem;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem; */
+
+.unique-content{
+    /* display: grid; */
+      grid-template-columns: repeat(1,1fr);
+      /* margin-left: 8rem; */
+      
+}
+
+   
+
+
+
+
+
 
         /* bmi */
         .bmi-heading{
