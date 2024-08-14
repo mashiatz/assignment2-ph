@@ -620,22 +620,26 @@ input[type="text"]{
             width: 70%;
             text-align: center;
             margin-left: 48px;
-
-
-            
-           
-        }
+           }
         .run-extra-description > h2 {
-            font-size: 2rem;
-            font-weight: 800;
-        
-        }
+            font-size: 1.7rem;
+            text-align: start;
+            }
+            .run-extra-description > p {
+               
+                text-align: start;
+                }
+
         .join-button2{
-            padding: 15px 120px;
+            padding: 0.8rem 6rem;
         }
         .run-img{
-            margin-top: 1.8rem;
+            width: 300px;
+            height: 210px;
+            margin-top: 20px;
+            border-radius: 5%;
         }
+        
 /* unique part done*/
 
 .unique-content{
