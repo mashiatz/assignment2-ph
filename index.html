@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <header>
+  <header class="header">
     <!-- navbar -->
     <nav class="nav">
         <div class="fitness orange"> Fitness </div>
@@ -27,7 +27,7 @@
      <div class="banner">
         <div class="banner-content">
     
-           <h1>Get body in <span id="shape">shape</span>  & stay<br/> healthy</h1>
+           <h1>Get body in  <span id="shape"> shape </span>  & stay<br/> healthy</h1>
                 
            <p>A huge selection of health and fitness content, healthy recipes<br/> and transformation stories to help you get fit and stay fit!</p>
            <div class="ban-buttons">
@@ -71,7 +71,7 @@
    <div class="habit1">
     <img src="images/image 3.png" alt="" style="border-radius: 50%;" >
     <h3 class="hab-head">Movement</h3>
-    <p class="hab-des">Standing up every hour if<br/> you work at a desk.</p>
+    <p class="hab-des">Focuses on strengthening various<br/> muscle groups at once.</p>
    </div>
 
    <div class="habit2">
@@ -147,7 +147,7 @@
 <!-- bmi heading -->
 <div class="bmi-heading">
   <h2>BMI Calculator</h2>
-  <p>BMI is calculated using a simple mathematical formula that divides a person's weight by the square of their height. </p>
+  <p> Used to calculate BMI value and corresponding weight status while taking age into consideration. </p>
   </div>
   
   <!-- bmi box -->
@@ -200,15 +200,22 @@
 </div>
 <div class="bmi-form">
   <div class="form-head"><h2 class="form-h2">Calculate your BMI</h2>
-    <p class="form-p">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym</p></div>
+    <p class="form-p">Free BMI calculator gives out the BMI value & categorizes BMI based on provided information from WHO & CDC for both adults and children.</p></div>
 
   <form class="form">
     <input type="text" placeholder="Height/cm" #id="cm">
    <input type="text" placeholder="Weight/kg" #id="kg">
    <input type="text" placeholder="Age" #age>
-   <input type="text" placeholder="Sex" #sex>
+   <!-- <input type="text" placeholder="Sex" #sex>
+  <input type="text" placeholder="Select an activity factor" id="sel">  -->
+<select class="select" id="sex">
+  <option value="">Sex</option>
+</select>
+<select class="select" id="sel">
+  <option value="">Select an activity factor</option>
+</select>
 
-    <input type="text" placeholder="Select an activity factor" id="sel"> 
+
     <button class="join-button2">Calculate</button>
     </form>
 </div> 

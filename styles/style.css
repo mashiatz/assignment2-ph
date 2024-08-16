@@ -12,6 +12,11 @@ body{
      
     
 }
+.header{
+    background-image: linear-gradient(to top, black , rgb(40, 39, 39)
+        );
+        
+}
 .orange{
     color: #E6533C;
 }
@@ -19,6 +24,7 @@ body{
 .nav{
     display: flex;
     justify-content: space-between;
+   
 }
 .nav > .fitness{
     
@@ -33,7 +39,7 @@ body{
     justify-content: center;
     gap: 1.6rem;
     margin-right: 5rem;
-    border: 1px solid #222222;
+    border: 1px solid #3d3b3b;
     border-radius: 1.8rem;
     padding: 10px;
 }
@@ -60,6 +66,9 @@ body{
     .banner{
         display: flex;
         justify-content: space-between;
+      
+       
+        
     }
 
     .banner-content > h1{
@@ -78,8 +87,8 @@ body{
    .ban-buttons*/
     #shape{
         font-family: 'Miama', sans-serif;
-        font-weight: 800;
-        font-size: 2.5rem;
+        font-weight: 900;
+        font-size: 4.5rem;
     }
     .ban-buttons{
         display: flex;
@@ -122,6 +131,7 @@ body{
     {
         background-color: rgba(48, 48, 48,0.5);
         backdrop-filter: blur(20px);
+        border: 1px solid rgb(68, 67, 67);
         color: white;
         width: 12rem;
         text-align: center;
@@ -167,6 +177,7 @@ body{
     position: absolute;
     top: 10rem;
     right: .3rem; 
+    border: 1px solid rgb(68, 67, 67);
 }
 .fiveplus{
     font-size: 2rem;
@@ -459,9 +470,26 @@ input[type="text"]{
     height: 3rem;
     width: 17.5rem;
     padding-left: 1.2rem;
-    /* border: 2px solid red; */
     border-radius: 0.8rem;
     border: none;
+
+}
+.select{
+    font-family: "Inter", sans-serif;
+    background-color:rgba(255, 255, 255, 0.196);
+    color: white;
+    
+    font-weight: 400;
+    opacity: 50%;
+    margin-bottom: 25px;
+    height: 3rem;
+    width: 19rem;
+    padding-left: 0.4rem;
+   
+    border-radius: 0.5rem;
+    border: none;
+    /* padding-right: 5px; */
+
 
 }
 .form{
@@ -473,7 +501,7 @@ input[type="text"]{
 
 #sel{
         grid-column: span 2;
-        width: 605px;
+        width: 625px;
     }
 
 
@@ -547,6 +575,11 @@ input[type="text"]{
          } */ 
         
         /* responsive nav-bar */
+
+    .header{
+        width: 100%;
+        padding: 5.5%;
+    }     
         
     .nav-opt > ul{
         display:none;
@@ -554,6 +587,7 @@ input[type="text"]{
     .fitness{
         padding-left: 20px;
         padding-top: 50px;
+        
     }
     .hamburger{
         display: initial;
@@ -578,6 +612,7 @@ input[type="text"]{
          .ban-buttons {
             margin-left: 1.5rem;
             margin-right: 1.5rem; 
+           
          }
         .workout{
             top: 2rem;
@@ -652,13 +687,8 @@ input[type="text"]{
 
         .bmi-box{
             flex-direction: column;
-            padding: 5%;
-           
-            
-            
-            
-            
-        }
+            padding: 5.5%;
+            }
      
 
         input[type="text"]{
@@ -674,6 +704,12 @@ input[type="text"]{
             /* border: 2px solid red; */
         
         }
+        #sex{
+            width: 11rem;
+        }
+        /* #sel{
+            width: 24rem;
+        } */
         .form{
 
            /* grid-template-areas: 
@@ -702,7 +738,7 @@ input[type="text"]{
         #sel{
             
             grid-column: span 2;
-            width: 21.25rem;
+            width: 22.2rem;
             
         }
            
@@ -715,10 +751,12 @@ input[type="text"]{
         /* trainer */
         .team-description > h2 , .unique-head > h2 {
             font-size: 2rem;
+            margin-left: 50px;
         }
         .team-description > p , .unique-head > p {
             padding: 40px;
             margin-top: -60px;
+            margin-left: 50px;
         }
     
         .team{
@@ -729,7 +767,7 @@ input[type="text"]{
       "team4"
       "team5" 
       "team6";
-      margin-left: 20px;
+      margin-left: 50px;
         }
 
    
@@ -740,7 +778,7 @@ input[type="text"]{
         /* footer */
         .footer{
             width:100%;
-            padding: 5%;
+            padding: 5.5%;
         }
 
         .footer-pt1{
