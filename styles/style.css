@@ -8,15 +8,15 @@ body{
     color: white;
     margin: 0 auto;
     padding: 0;
-    box-sizing: border-box;
-     
-    
+    box-sizing: border-box;  
 }
+
 .header{
     background-image: linear-gradient(to top, black , rgb(40, 39, 39)
         );
         
 }
+
 .orange{
     color: #E6533C;
 }
@@ -26,6 +26,7 @@ body{
     justify-content: space-between;
    
 }
+
 .nav > .fitness{
     
     font-size: 2.25rem;
@@ -33,6 +34,7 @@ body{
     font-style: italic;
     margin-left: 3rem;
 }
+
 .nav-opt > ul{
     display: flex;
     align-items: center;
@@ -43,9 +45,9 @@ body{
     border-radius: 1.8rem;
     padding: 10px;
 }
+
 .nav > .nav-opt > ul > li{
     list-style: none;
-    
     padding-right: 2rem;
    
 }
@@ -66,39 +68,32 @@ body{
     .banner{
         display: flex;
         justify-content: space-between;
-      
-       
-        
     }
 
     .banner-content > h1{
         font-size: 2.5rem;
         font-weight: 900;
         margin-left: 3rem;
-       
     }
+
     .banner-content > p{
         opacity: 50%;
         margin-left: 3rem;
-      /* margin-bottom: 2rem; */
+     
     }
-/* .banner-content > h1 
-  .banner-content > p
-   .ban-buttons*/
+
     #shape{
         font-family: 'Miama', sans-serif;
         font-weight: 900;
         font-size: 4.5rem;
     }
+
     .ban-buttons{
         display: flex;
         margin-left: 3rem;
     }
 
-   
-
-
-    .join-button
+   .join-button
     {
         background-color: #E6533C;
         color:white;
@@ -118,10 +113,8 @@ body{
         border-radius: 2.5rem;
         font-size: 1rem;
         font-weight:600;
-        /* margin-left: 1rem; */
-    
-    
     }
+
     .banner-img{
         position: relative;
       margin-right: 3rem;
@@ -145,28 +138,25 @@ body{
         position: absolute;
     }
 
-    
 .circle{
     width:2rem;
    height: 2rem;
    background-color: #E6533C;
    border-radius: 50%;
-   
-  
 }
+
 .plus{
    font-size: 1.5rem;
    font-weight: 700;
    margin-bottom: -1rem;
-
 }
+
 .vdo{
    color: white;
    opacity: 50%;
    font-size: 0.9rem;
-
-    
 }
+
 .workout{
     background-color: rgba(48, 48, 48,0.5);
     backdrop-filter: blur(20px);
@@ -179,26 +169,27 @@ body{
     right: .3rem; 
     border: 1px solid rgb(68, 67, 67);
 }
+
 .fiveplus{
     font-size: 2rem;
     font-weight: 800;
     margin-bottom: -1rem;
     margin-top: 0.5rem;
    
-   
 }
+
 .workout-vdos{
     color: white;
     opacity: 50%;
     font-size: 0.9rem;
-
 }
-/* section change habit */
+
 
 .cng-habit-description{
    text-align: center;
     
 }
+
 .cng-habit-description > h3 {
     color:White;
     font-size: 3rem;
@@ -206,6 +197,7 @@ body{
     margin-left: 2.5rem;
 
 }
+
 .cng-habit-description > p {
     color: white;
     opacity: 50%;
@@ -214,6 +206,7 @@ body{
     margin-left: 2.5rem;
     margin-bottom: 2rem;
 }
+
 .habits{
     display: flex;
     justify-content: space-evenly;
@@ -225,6 +218,7 @@ body{
     font-weight: 700;
     text-align: center;
 }
+
 .hab-des {
     color: white;
     opacity: 50%;
@@ -242,7 +236,6 @@ body{
     justify-content: center;
     align-items: center; 
     margin: 120px;
-    
     padding: 30px;
     border-radius: 25px;
 }
@@ -252,12 +245,14 @@ body{
     font-weight: 900;
 
 }
+
 .run-extra-description > p {
     font-size: 0.8rem;
     color: white;
     opacity: 50%;
     margin-top: -1rem;
 }
+
 .join-button2{
     background-color: #E6533C;
     color:white;
@@ -267,42 +262,34 @@ body{
     font-size: 1rem;
     font-weight:600;
 }
+
 .run-img{
     width: 350px;
     height: 300px;
     border-radius: 5%;
 }
-/* unique part */
 
+/* unique part */
 
 .unique-content{
     border: 1px solid grey;
     display: grid;
        grid-template-columns: repeat(3,1fr);
-      
       gap: 10px;
       padding: 20px;
-      
       border-radius: 0.8rem;
       margin: 2rem;
-      /* margin-left: 0.8rem; */
       
 }
 
-
 .content1 > h3 , .content2 > h3 , .content3 > h3 {
-
-    
+   
     font-size: 1rem;
     font-weight: 700;
-    
-    /* margin-bottom: 2rem;  */
-    /* padding-left: 0.5rem;  */
-}
+    }
 .content1 > p , .content2 > p , .content3 > p {
 
     font-size: 0.8rem;
-    /* color: white; */
     opacity: 50%;
     margin-top: -1rem;
     margin-bottom: 2rem;
@@ -318,7 +305,6 @@ body{
 
 /* section meet our team */
 
-
 .meet-team {
     display:flex;
     justify-content: center;
@@ -327,8 +313,7 @@ body{
 }
 
 .team{
-    background-color: #222222;
-    
+      background-color: #222222;
       display: grid;
       gap: 10px;
       grid-template-areas: 
@@ -338,6 +323,7 @@ body{
       border-radius: 1rem;
       
 }
+
 .team-description > h2 , .unique-head > h2 {
     font-size: 3rem ;
     font-weight: 700;
@@ -353,12 +339,14 @@ body{
     text-align: center;
 
 }
+
 .trainer-img {
     width: 16rem ;
     height: 13rem;
     border-radius: 0.3rem;
    
 }
+
 .trainer-head{
 
     font-size: 1rem;
@@ -374,15 +362,6 @@ body{
     margin-top: -1.4rem;
     padding-left: 0.5rem;
 }
-
-/* challenge part-BMI */
-
-/* bmi heading */
-
-/* .bmi-heading{
-    margin-left: 25rem;
-     */
-
 
 .bmi-heading > h2 {
     font-size: 2rem ;
@@ -451,8 +430,8 @@ body{
 .form-h2{
     font-size: 2rem;
     font-weight: 800;
-    /* margin-left: 100px; */
-    padding-top: 2rem;}
+    padding-top: 2rem;
+}
 
 .form-p{
     opacity: 0.5;
@@ -478,22 +457,18 @@ input[type="text"]{
     font-family: "Inter", sans-serif;
     background-color:rgba(255, 255, 255, 0.196);
     color: white;
-    
     font-weight: 400;
     opacity: 50%;
     margin-bottom: 25px;
     height: 3rem;
     width: 19rem;
     padding-left: 0.4rem;
-   
     border-radius: 0.5rem;
     border: none;
-    /* padding-right: 5px; */
+    }
 
-
-}
 .form{
-    /* display: flex; */
+    
     display: grid;
     grid-template-columns: repeat(2,310px);
    
@@ -510,15 +485,8 @@ input[type="text"]{
 .footer{
     background-color: #222222;
     margin-top: 4rem;
-    
-    /* width: 100%; */
 }
 .footer-pt1{
-    /* display: grid;
-    grid-template-columns:repeat(3,1fr);
-    gap: 60px;
-    margin-bottom: 40px; */
-   
     
     display: flex;
     align-items: center;
@@ -556,7 +524,7 @@ input[type="text"]{
     border-top: 0.2px solid rgba(255, 255, 255, 85%);
    margin-left: 11.5rem;
    margin-right: 11.5rem;
-    /* margin-top: 2.5rem; */
+   
     text-align: center;
     padding-top: 1.8rem;
     padding-bottom: 1.8rem;
@@ -565,16 +533,10 @@ input[type="text"]{
 }
 
 
- 
 
-    /*responsive part  */
+/*responsive part  */
     @media screen and (max-width:576px){
-         /* *{
-            /* overflow-x: hidden; */
-            /* box-sizing: border-box;
-         } */ 
-        
-        /* responsive nav-bar */
+         
 
     .header{
         width: 100%;
@@ -666,20 +628,12 @@ input[type="text"]{
 .unique-content{
     
       grid-template-columns: repeat(1,1fr);
-      /* margin: 1.5rem; */
       margin-left: 4.5rem;
         
 }
 
+/* bmi */
 
-
-
-
-
-
-
-
-        /* bmi */
         .bmi-heading{
             display: block;
             justify-content: flex-start;
@@ -695,45 +649,27 @@ input[type="text"]{
    
             height: 2rem;
             width: 10rem;
-            /* padding-left: 1.2rem; */
             border: none;
             border-radius: 0.5rem;
             padding: 8px;
-            /* margin-left: 6rem; */
             margin-right: 0;
-            /* border: 2px solid red; */
         
         }
         #sex{
             width: 11rem;
         }
-        /* #sel{
-            width: 24rem;
-        } */
+        
         .form{
-
-           /* grid-template-areas: 
-            "cm kg"
-            "age sex"
-            "sel sel"; */
-            /* gap: 5px; */
-
-           
             width: 100%;
             display: initial;
-            /* margin-right: 40px;
-            padding-bottom: 40px; */
-
             
-           
         }
         .bmi-form{
             width: 100%;
             margin-left: 30px;
             padding-left: 15px;
             padding-bottom: 30px;
-            /* display: block;
-            gap:2px */
+            
         }
         #sel{
             
@@ -743,12 +679,7 @@ input[type="text"]{
         }
            
 
-        
-
-        
-            
-        
-        /* trainer */
+ /* trainer */
         .team-description > h2 , .unique-head > h2 {
             font-size: 2rem;
             margin-left: 50px;
@@ -769,13 +700,8 @@ input[type="text"]{
       "team6";
       margin-left: 50px;
         }
+/* footer */
 
-   
-
-
-
- 
-        /* footer */
         .footer{
             width:100%;
             padding: 5.5%;
